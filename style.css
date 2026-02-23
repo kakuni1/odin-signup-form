@@ -96,7 +96,7 @@ img {
 
 .attribution {
     width: 40%;
-    padding-bottom: 1.15rem;
+    padding-bottom: 0.75rem;
 }
 
 a {
@@ -111,5 +111,5 @@ a:hover {
 
 html,
 body {
-    overflow: hidden;
+    overflow: clip;
 }
