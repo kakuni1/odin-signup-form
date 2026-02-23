@@ -88,15 +88,20 @@ img {
     align-items: center;
     justify-content: center;
     color: #c0caf5;
-    font-size: 0.75rem;
+    font-family:
+        "WDXL Lubrifont TC",
+        system-ui,
+        -apple-system,
+        sans-serif;
+    font-size: 0.8rem;
     font-weight: 500;
     opacity: 0.6;
     gap: 0.25rem;
 }
 
 .attribution {
-    width: 40%;
-    padding-bottom: 0.75rem;
+    width: 39.75%;
+    padding-bottom: 1.25rem;
 }
 
 a {
