@@ -74,14 +74,14 @@ h6 {
     display: inline-block;
 }
 
-#background {
+.background {
     position: absolute;
     top: 0%;
     right: 0%;
     width: 70%;
     height: 100%;
     background-color: #a9b1d6;
-    opacity: 0.98;
+    opacity: 0.99;
 }
 
 #background-image {
@@ -143,6 +143,21 @@ h6 {
     gap: 0.25rem;
     width: 39.75%;
     padding-bottom: 1rem;
+}
+
+h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1f2335;
+    font-family:
+        "WDXL Lubrifont TC",
+        system-ui,
+        -apple-system,
+        sans-serif;
+    font-size: clamp(0.25rem, 2vh, 1.5rem);
+    line-height: 1.75;
 }
 
 a {
