@@ -69,36 +69,21 @@ h6 {
 
 /* CSS styling start */
 
-img {
+#background {
     max-height: 100vh;
     width: auto;
 }
 
-.image-container {
-    position: relative;
+#odin-logo {
     display: inline-block;
+    height: 9vh;
+    width: auto;
+    opacity: 0.75;
+    margin-right: 2rem;
 }
 
-.attribution {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #c0caf5;
-    font-family:
-        "WDXL Lubrifont TC",
-        system-ui,
-        -apple-system,
-        sans-serif;
-    font-size: 0.67rem;
-    font-weight: 500;
-    opacity: 0.6;
-    gap: 0.25rem;
-    width: 39.75%;
-    padding-bottom: 1rem;
+.image-container {
+    position: relative;
 }
 
 .logo-belt {
@@ -110,10 +95,12 @@ img {
     width: 100%;
 }
 
-.odin-logo {
+.odin-container {
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 50%;
-    left: 12.5%;
+    left: 12%;
     transform: translate(-50%, -50%);
     color: #c0caf5;
     font-family:
@@ -121,7 +108,7 @@ img {
         system-ui,
         -apple-system,
         sans-serif;
-    font-size: 2.4rem;
+    font-size: 6vh;
     font-weight: 400;
 }
 
