@@ -84,6 +84,7 @@ h6 {
 
 .image-container {
     position: relative;
+    display: inline-block;
 }
 
 .logo-belt {
