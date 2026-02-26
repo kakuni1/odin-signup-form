@@ -71,7 +71,6 @@ h6 {
 
 .image-container {
     position: relative;
-    display: inline-block;
 }
 
 .background {
@@ -143,14 +142,14 @@ h6 {
 .form-row {
     display: flex;
     align-items: center;
-    gap: 5rem;
+    gap: 2.5rem;
 }
 
 #column-one,
 #column-two {
     display: flex;
     flex-direction: column;
-    margin-left: 10rem;
+    margin-left: 2.5rem;
     gap: 1rem;
 }
 
@@ -171,13 +170,17 @@ h6 {
     line-height: 1.75;
 }
 
+#top {
+    left: 40%;
+}
+
 #middle {
-    left: 30%;
+    left: 15%;
 }
 
 #bottom {
     top: 85%;
-    left: 20%;
+    left: 15%;
 }
 
 .attribution {
@@ -229,7 +232,25 @@ p {
 
 a:hover {
     color: #7aa2f7;
-    opacity: 0.75;
+    opacity: 1;
+}
+
+input,
+textarea,
+select {
+    width: 20rem;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 1.25rem;
+    width: 10rem;
+}
+
+p {
+    font-size: 1.125rem;
 }
 
 html,
