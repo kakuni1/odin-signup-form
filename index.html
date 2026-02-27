@@ -16,21 +16,16 @@
         <div class="image-container">
             <div class="logo-belt">
                 <div class="odin-container">
-                    <img
-                        id="odin-logo"
-                        src="images/odin-lined.png"
-                        alt="odin-logo"
-                    />
+                    <img id="odin-logo" src="images/odin-lined.png" alt="odin-logo" />
                     <span id="logo-text">ODIN</span>
                 </div>
             </div>
             <div class="text-main">
                 <div class="background">
                     <h2 id="top">
-                        This is not a real online service! You know you need
-                        something like this in your real life to help you
-                        realize your deepest dreams. <br />Sign up
-                        <em>now</em> to get started. <br /><br />
+                        This is not a real online service! You know you need something like this in
+                        your real life to help you realize your deepest dreams. <br />
+                        Sign up <em> now </em> to get started. <br /><br />
                         You know you <em>want</em> to.
                     </h2>
                     <div class="main">
@@ -40,27 +35,21 @@
                                 <fieldset>
                                     <div class="form-row">
                                         <div id="column-one">
-                                            <label for="first_name"
-                                                >first name</label
-                                            >
+                                            <label for="first_name">first name *</label>
                                             <input
                                                 type="text"
                                                 id="first_name"
                                                 name="first_name"
                                                 required
                                             />
-                                            <label for="last_name"
-                                                >last name</label
-                                            >
+                                            <label for="last_name">last name *</label>
                                             <input
                                                 type="text"
                                                 id="last_name"
                                                 name="last_name"
                                                 required
                                             />
-                                            <label for="user_email"
-                                                >email</label
-                                            >
+                                            <label for="user_email">email *</label>
                                             <input
                                                 type="email"
                                                 id="user_email"
@@ -69,31 +58,28 @@
                                             />
                                         </div>
                                         <div id="column-two">
-                                            <label for="user_phonenumber"
-                                                >phone number</label
-                                            >
+                                            <label for="user_phonenumber">phone number *</label>
                                             <input
                                                 type="tel"
                                                 id="user_phonenumber"
                                                 name="user_phonenumber"
+                                                pattern="^\d{3}-\d{3}-\d{4}$"
                                                 required
                                             />
-                                            <label for="user_password"
-                                                >password</label
-                                            >
+                                            <label for="user_password">password *</label>
                                             <input
                                                 type="password"
                                                 id="user_password"
                                                 name="user_password"
+                                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                                                 required
                                             />
-                                            <label for="confirm_password"
-                                                >confirm password</label
-                                            >
+                                            <label for="confirm_password">confirm password *</label>
                                             <input
                                                 type="password"
                                                 id="confirm_password"
                                                 name="confirm_password"
+                                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                                                 required
                                             />
                                         </div>
